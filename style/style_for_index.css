@@ -1,10 +1,12 @@
 #background-image{
 	background-image:url("tree.jpg");
+	height: height;
 }
 #inside_background{
 	border:2px outset black;
 	padding:30px;
-	width:800px;
+	width:700px;
+	background-color:white;
 }
 h1{
 	color:blue;
