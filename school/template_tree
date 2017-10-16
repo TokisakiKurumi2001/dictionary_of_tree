@@ -2,9 +2,11 @@
 <html lang : "vi">
 	<head>
 		<title>Me tây (1)</title>
+		<link rel  = "stylesheet" href = "style_tree.css">
 	</head>
 	<body>
-		<div class = "background-img">
+		<script src = "effect.js"></script>
+		<div class = "background-image">
 			<div class = "main">
 				<h1>Me tây (1)</h1>
 				
@@ -19,6 +21,7 @@
 				<p>Diện tích nghiên cứu(diện tích trường): <span id = "aS"></span> m2 </p>
 				<p>Giá tiền: <span id = ""></span> đ</p>
 				<p>Giá trị cây xanh: <span id = "gt"></span> </p>
+				<a href = "https://tokisakikurumi2001.github.io/dictionary_of_tree/">Trang chủ</a>
 			</div>
 		</div>
 	</body>
