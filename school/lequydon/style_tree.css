@@ -1,0 +1,19 @@
+.background-image{
+	background-img:url("tree.jpg");
+	padding:30px;
+	height:height;
+}
+.main{
+	width:700px;
+	border:2px outset black;
+	padding:30px;
+	background-color:white;
+}
+h1{
+	color:blue;
+	text-align:center;
+	font-family:cursive;
+}
+span{
+	font-weight:bold;
+}
