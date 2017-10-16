@@ -1,0 +1,17 @@
+.background-image{
+	background-img:url("tree.jpg");
+}
+.main{
+	width:800px;
+	border:2px outset black;
+	padding:30px;
+}
+h1{
+	color:blue;
+	text-align:center;
+	font-family:cursive;
+}
+.tree_name{
+	font-family:cursive;
+	color:blue;
+}
