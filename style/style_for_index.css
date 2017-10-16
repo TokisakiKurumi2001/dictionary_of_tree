@@ -1,9 +1,10 @@
 #background-image{
-	background-img:url("https://image.chantemur.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/1007486.jpg");
+	background-img:url("tree.jpg");
 }
 #inside_background{
 	border:2px outset black;
 	padding:30px;
+	width:800px;
 }
 h1{
 	color:blue;
