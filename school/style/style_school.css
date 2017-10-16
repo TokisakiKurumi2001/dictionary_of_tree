@@ -1,6 +1,7 @@
 .background-image{
 	background-image:url("tree.jpg");
 	height:height;
+	padding:100px;
 }
 .main{
 	width:700px;
