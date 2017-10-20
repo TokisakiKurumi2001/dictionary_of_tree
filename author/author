@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tác giả</title>
+	</head>
+	<body>
+		<h1>Lê Minh Khôi</h1>
+		<h2>Lập trình trang web</h2>
+		<a href = "https://www.facebook.com/lekhoitdn">Facbook</a>
+		<h1>Nguyễn Công Đạt</h1>
+		<h2>Thu thập thông tin</h2>
+		<a href = "https://www.facebook.com/namanh.vu.7771">Facebook</a>
+		<h1>Cao Minh Trí</h1>
+		<h2>Lập trình trang web</h2>
+		<a href = "https://www.facebook.com/tri.caominh.756">Facbook</a>
+		<h1>Tsoi Nhất Phú</h1>
+		<h2>Lập trình trang web</h2>
+		<a href = "https://www.facebook.com/nhatphu.tsoi">Facebook</a>
+	</body>
+</html>
