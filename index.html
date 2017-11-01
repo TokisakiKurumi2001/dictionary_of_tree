@@ -9,75 +9,131 @@
 			<div id = "inside_background">
 				<!-- Start of contents -->
 				<h1>Mục lục</h1>
-				<ol class = "name_of_school">
-					<!-- first school begin -->
-					<li>
-						<a href = "school/trandainghia.html">
-							<p class = "school_name">Trần Đại Nghĩa</p>
-						</a>
-					</li>
-					<!-- first school end -->
-					
-					<!-- second school begin -->
-					<li>
-						<a href = "school/lehongphong.html">
-							<p class = "school_name">Lê Hồng Phong</p>
-						</a>
-					</li>
-					<!-- second school end -->
-					
-					<!-- third school begin -->
-					<li>
-						<a href = "school/lequydon.html">
-							<p class = "school_name">Lê Quý Đôn</p>
-						</a>
-					</li>
-					<!-- third school end -->
-					
-					<!-- fouth school begin -->
-					<li>
-						<a href = "school/mariecurie.html">
-							<p class = "school_name">Marie Curie</p>
-						</a>
-					</li>
-					<!-- fouth school end -->
-					
-					<!-- fifth school begin -->
-					<li>
-						<a href = "school/trungvuong.html">
-							<p class = "school_name">Trưng Vương</p>
-						</a>
-					</li>
-					<!-- fifth school end -->
-													
-					<!-- tutorial -->
-					<li>
-						<a href = "tutorial/tutorial.html">
-							<p class = "school_name">How to use</p>
-						</a>
-					</li>
-					<!-- add -->
-					<li>
-						<a href = "add/add.html">
-							<p class = "school_name">Thêm trường</p>
-						</a>
-					</li>
-					<li>
-						<a href = "author/author.html">
-							<p class = "school_name">Tác giả</p>
-						</a>
-					</li>
-					
-					<!--
-					 second school begin
-					<li>
-						<a href = "school/lehongphong.html">
-							<p class = "school_name">Lê Hồng Phong</p>
-						</a>
-					</li>
-					 second school end
-					-->
-				</ol>
+				<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table</title>
+		<script>
+			window.onload = function(){
+				var school_name = new Array("Trần Đại Nghĩa","Lê Hồng Phong","Trưng Vương","Marie Curie","Lê Quý Đôn");
+				var image_school = new Array("trandainghia.jpg","lehongphong.jpg","trungvuong.jpg","marie.jpg","lequydon.jpg");
+				var desc = new Array("Có khoảng 10 cây","Có khoảng 8 cây","Có khoảng 4 cây","Có khoảng 14 cây","Có khoảng 8 cây");
+				var link = new Array("trandainghia.html","lehongphong.html","trungvuong.html","mariecurie.html","lequydon.html");
+				
+				var name = document.getElementsByClassName("name_of_school");
+				var i = 0;
+				//replacing the school name with the string in the array
+				for(i = 0; i < name.length; i++){
+					name[i].innerHTML = school_name[i];
+				}
+				i = 0;
+				//replacing description
+				var descr = document.getElementsByClassName("des");
+				for(i = 0; i < descr.length; i++){
+					descr[i].innerHTML = desc[i];
+				}
+				//replacing pic
+				var picture = document.getElementsByClassName("image");
+				i = 0;
+				for(i = 0; i < picture.length; i++){
+					picture[i].src = image_school[i];
+				}
+				var linking = document.getElementsByClassName("link");
+				i = 0;
+				for(i = 0; i < linking.length; i++){
+					linking[i].href = "school/"+link[i];
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<!-- first school start -->
+		<table>
+			<tr>
+				<td colspan = "2" align = "center">
+					<a href = "school/trandainghia.html" class = "link">
+						<p class = "name_of_school">Trần Đại Nghĩa</p>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src = "image.jpg" height = "100px" width = "200px" class = "image">
+				</td>
+				<td><p class = "des">Description</p></td>
+			</tr>
+		</table>
+		<!-- first school end -->
+		<!-- second school start -->
+		<table>
+			<tr>
+				<td colspan = "2" align = "center">
+					<a href = "school/trandainghia.html" class = "link">
+						<p class = "name_of_school">Trần Đại Nghĩa</p>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src = "image.jpg" height = "100px" width = "200px" class = "image">
+				</td>
+				<td><p class = "des">Description</p></td>
+			</tr>
+		</table>
+		<!-- second school end -->
+		<!-- third school start -->
+		<table>
+			<tr>
+				<td colspan = "2" align = "center">
+					<a href = "school/trandainghia.html" class = "link">
+						<p class = "name_of_school">Trần Đại Nghĩa</p>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src = "image.jpg" height = "100px" width = "200px" class = "image">
+				</td>
+				<td><p class = "des">Description</p></td>
+			</tr>
+		</table>
+		<!-- third school end -->
+		<!-- fouth school start -->
+		<table>
+			<tr>
+				<td colspan = "2" align = "center">
+					<a href = "school/trandainghia.html" class = "link">
+						<p class = "name_of_school">Trần Đại Nghĩa</p>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src = "image.jpg" height = "100px" width = "200px" class = "image">
+				</td>
+				<td><p class = "des">Description</p></td>
+			</tr>
+		</table>
+		<!-- fouth school end -->
+		<!-- fifth school start -->
+		<table>
+			<tr>
+				<td colspan = "2" align = "center">
+					<a href = "school/trandainghia.html" class = "link">
+						<p class = "name_of_school">Trần Đại Nghĩa</p>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src = "image.jpg" height = "100px" width = "200px" class = "image">
+				</td>
+				<td><p class = "des">Description</p></td>
+			</tr>
+		</table>
+		<!-- fifth school end -->
+	</body>
+</html>
 			</div>
 		</div>
 	</body>
